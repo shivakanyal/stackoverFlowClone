@@ -1,0 +1,85 @@
+
+@media only screen and (max-width: 10px) {
+ .nav{
+     display: none;
+ }
+}
+@media only screen and (max-width: 1110px) {
+    html{
+        font-size: 55%;
+    }
+    .cards{
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-evenly;
+    }
+    .cards>div{
+        padding: 3rem;
+        width: 40%;
+        /* margin-bottom: 9rem; */
+    }
+    .card-business{
+        margin-bottom: 3rem;
+    }
+    .card-2{
+        position: static;
+        /* top: 0; */
+    }
+   }
+   @media only screen and (max-width: 1125px) {
+    .job-cards{
+        width: 100%;
+        flex-wrap: wrap;
+        /* position: relative; */
+    }
+    .job-card{
+        margin-bottom: 2rem;
+        
+    }
+     .section-jobs .btn{
+        /* position: absolute;
+        top: 7rem; */
+        display: block;
+        width: 20%;
+        margin-left: 40%;
+    }
+   .section-jobs .heading-tertiary{
+        text-align:center;   
+    }
+}
+@media only screen and (max-width: 840px){
+    .cards-schemes{
+        flex-wrap: wrap;
+    }
+    .section-hiring{
+        padding: 0rem;
+        margin-top: 3rem;
+    }
+    .footer{
+        padding: 1rem;
+    }
+    .card-scheme{
+        width: 40%;
+
+        margin-bottom: 2rem;
+    }
+    .card-scheme-3{
+        width: 50%;
+    }
+    .paragraph-main{
+        width: 100%;
+    }
+    section{
+        padding: 1rem;
+    }
+    .cards>div{
+        width: 70%;
+        margin-right: 0;
+        
+    }
+    .paragraph{
+        width: 100%;
+        text-align: ;
+        /* margin: auto; */
+    }
+}
